@@ -1,0 +1,142 @@
+@font-face {
+	font-family: 'Spoqa Thin';
+	font-style: normal;
+	font-weight: 100;
+	src: url('Spoqa Han Sans Thin.woff') format('woff'),
+	url('Spoqa Han Sans Thin.woff2') format('woff2'),
+	url('Spoqa Han Sans Thin.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Spoqa Light';
+	font-style: normal;
+	font-weight: 300;
+	src: url('Spoqa Han Sans Light.woff') format('woff'),
+	url('Spoqa Han Sans Light.woff2') format('woff2'),
+	url('Spoqa Han Sans Light.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'Spoqa Regular';
+	font-style: normal;
+	font-weight: 500;
+	src: url('Spoqa Han Sans Regular.woff') format('woff'),
+	url('Spoqa Han Sans Regular.woff2') format('woff2'),
+	url('Spoqa Han Sans Regular.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'Spoqa Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('Spoqa Han Sans Bold.woff') format('woff'),
+	url('Spoqa Han Sans Bold.woff2') format('woff2'),
+	url('Spoqa Han Sans Bold.ttf')  format('truetype');
+}
+
+::selection{
+	background: #e8f3ff;
+}
+
+
+html {
+	font-size: 18px;
+/*	font-family: Spoqa Han Sans;*/
+	color: ##191919;
+	line-height: 1.5;
+	word-break: keep-all;
+	overflow: auto;
+	min-width: 900px;
+}
+
+body{
+	margin: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+
+
+h1{
+	font-family: 'Spoqa Bold';
+	font-size: 2rem;
+}
+h2, p{
+	font-family: 'Spoqa Regular';
+	font-size: 1.3rem;
+}
+h3{
+	font-family: 'Spoqa Light';
+	font-size: 1rem;
+} 
+li,  span{
+	font-family: 'Spoqa Light';
+	font-size: 1rem;
+}
+
+.container{
+	display: flex;
+	width: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+section{
+	width: auto;
+	margin: 3rem 2rem 0 3rem;
+	border-bottom: 3px solid #D9D9D9;
+}
+
+.menu{
+	-ms-flex:1;
+	background: #3182f6;
+	color : #fff;
+	padding: 0;
+}
+
+.menu .inner{
+	padding: 0 3rem 0 1rem;
+}
+
+.menu-title{
+	font-family: "Spoqa-Bold"
+	width:auto;
+	background: #2d2d2d;
+	padding: auto;
+	padding-left: 0.5rem;
+
+}
+
+.menu .content { margin: 0 0 0 1rem; }
+
+.menu .content p{ line-height: 1; }
+
+
+.main-content{ width: 100%; padding-top: 1rem; }
+
+.main-content .content{
+	display: flex;
+	width: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-bottom: 2.5rem;
+}
+.point{ color :#3182f6; }
+
+
+.left{
+	width: 30rem;
+	padding-bottom: 1rem;
+}
+
+.right p{ font-size: 1rem; }
+
+@media all and (max-width: 1080px){
+	.main-content .content{
+		display: flex;
+		width: auto;
+		flex-wrap: wrap;
+		padding-bottom: 1.5rem;
+	}
+}
