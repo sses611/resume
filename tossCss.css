@@ -130,6 +130,12 @@ section{
 	padding-bottom: 1rem;
 }
 
+.right{
+	width: auto;
+	padding: 0 0 0 1rem;
+}
+
+
 .right p{ font-size: 1rem; }
 
 @media all and (max-width: 1080px){
